@@ -71,7 +71,7 @@ A survey of deep multimodal emotion recognition.
 ## Related Papers
 
 ### Video-Audio Method
-| Index            | Model                                     | Paper                                                        | Year | Coding/Video/Project                                                    | Dataset | Method |
+| Index            | Model                                     | Paper                                                        | Year | Project                                                    | Dataset | Method |
 | --------------- | ----------------------------------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------- |
 | VA-0 | VAANet | [An End-to-End Visual-Audio Attention Network for Emotion Recognition in User-Generated Videos](https://arxiv.org/pdf/2003.00832.pdf) | AAAI 2020  | [[coding](https://github.com/maysonny/VAANet)]  | VideoEmotion-8, Ekman-6 | Visual+Audio, Attention-Based Model|
 | VA-1 |  | [Audio-Visual Emotion Forecasting: Characterizing and Predicting Future Emotion Using Deep Learning](https://www.academia.edu/39068756/Audio_visual_emotion_FG) | FG 2019 |  [[coding](https://github.com/sadat1971/Emotion-Forecasting-MATLAB_python)] |  IEMOCAP |  Face + Speech, Emotion forecasting|
@@ -102,7 +102,7 @@ A survey of deep multimodal emotion recognition.
 <br></br>
 ### Context-awarded method
 
-| Index            | Model                                     | Paper                                                        | Year | Coding/Video/Project                                                    | Dataset | Method |
+| Index            | Model                                     | Paper                                                        | Year | Project                                                    | Dataset | Method |
 | --------------- | ----------------------------------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------- |
 | 1 | EmotiCon | [EmotiCon: Context-Aware Multimodal Emotion Recognition using Frege’s Principle](https://openaccess.thecvf.com/content_CVPR_2020/papers/Mittal_EmotiCon_Context-Aware_Multimodal_Emotion_Recognition_Using_Freges_Principle_CVPR_2020_paper.pdf) | CVPR 2020  | [[video](https://www.youtube.com/watch?v=kYOFkL7n0AI)] [[project](https://gamma.umd.edu/researchdirections/affectivecomputing/emoticon/)] | EMOTIC, [GroupWalk] | Face+Gait+(Depth+Background), Multiplicative fusion, etc|
 | 3| CAER-Net | [Context-Aware Emotion Recognition Networks](https://openaccess.thecvf.com/content_ICCV_2019/papers/Lee_Context-Aware_Emotion_Recognition_Networks_ICCV_2019_paper.pdf) | ICCV 2019  | [[coding](https://github.com/ndkhanh360/CAER)][[project](https://caer-dataset.github.io/)] | EMOTIC, AffectNet, [CAER-S], AFEW, [CAER] | Face + Context, Adaptive Fusion|
@@ -140,7 +140,7 @@ A survey of deep multimodal emotion recognition.
 <br></br>
 ### Attribute-based
 
-| Index            | Model                                     | Paper                                                        | Year | Coding/Video/Project                                                    | Dataset | Method |
+| Index            | Model                                     | Paper                                                        | Year | Project                                                    | Dataset | Method |
 | --------------- | ----------------------------------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------- |
 | AB-1 | MMDRBN | [Knowledge-Augmented Multimodal Deep Regression Bayesian Networks for Emotion Video Tagging](https://www.ecse.rpi.edu/~cvrl/Publication/pdf/Wang2021.pdf) | 2019 TMM |   | LIRIS-ACCEDE |  Visual + Audio + Attribute|
 | AB-2 |  | [Recognizing Induced Emotions of Movie Audiences From Multimodal Information](http://eprints.bournemouth.ac.uk/31903/1/j9-Recognizing%20Induced%20Emotions%20of%20Movie%20Audiences%20From%20Multimodal%20Information.pdf) | 2019 TAC |   | LIRIS-ACCEDE |  Visual + Audio + Dialogue + Attribute|
@@ -153,7 +153,7 @@ A survey of deep multimodal emotion recognition.
 <br></br>
 ### Aspect-based Network
 
-| Index            | Model                                     | Paper                                                        | Year | Coding/Video/Project                                                    | Dataset | Method |
+| Index            | Model                                     | Paper                                                        | Year | Project                                                    | Dataset | Method |
 | --------------- | ----------------------------------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------- |
 | ABN-1 | MIMN | [Multi-Interactive Memory Network for Aspect Based Multimodal Sentiment Analysis](https://ojs.aaai.org//index.php/AAAI/article/view/3807) | AAAI 2019  | [[coding](https://github.com/xunan0812/MIMN)]  | [Multi-ZOL] | Text+Aspect+Images, Aspect based multimodal sentiment analysis|
 | ABN-2 | VistaNet | [VistaNet: Visual Aspect Attention Network for Multimodal Sentiment Analysis](https://ojs.aaai.org//index.php/AAAI/article/view/3799) | AAAI 2019  | [[coding](https://github.com/PreferredAI/vista-net)]  | [Yelp-Food-Restaurants] | Visual+Text|
@@ -165,7 +165,7 @@ A survey of deep multimodal emotion recognition.
 <br></br>
 ### Physiological signal-based
 
-| Index            | Model                                     | Paper                                                        | Year | Coding/Video/Project                                                    | Dataset | Method |
+| Index            | Model                                     | Paper                                                        | Year | Project                                                    | Dataset | Method |
 | --------------- | ----------------------------------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------- |
 | PSB-1 |  | [Emotion Recognition From Multimodal Physiological Signals Using a Regularized Deep Fusion of Kernel Machine](https://www.researchgate.net/profile/Jian-Shen-32/publication/341361785_Emotion_Recognition_From_Multimodal_Physiological_Signals_Using_a_Regularized_Deep_Fusion_of_Kernel_Machine/links/5ebe55a2299bf1c09abc35ab/Emotion-Recognition-From-Multimodal-Physiological-Signals-Using-a-Regularized-Deep-Fusion-of-Kernel-Machine.pdf) | 2020 TC |   |  |  EEG + Other physiological signals|
 | PSB-2 | MMResLSTM | [Emotion Recognition using Multimodal Residual LSTM Network](https://dl.acm.org/doi/pdf/10.1145/3343031.3350871?casa_token=eMp-HVIHiDEAAAAA:NYHcjx1W7rG_KA6vczPxlkWjgei1xQbmTfngt-0x7Gg54F2Pxh06nIaFxrz-usaoqFRY1ghSc-VUIg) | MM 2019 |   | DEAP |  EEG + PPS(EOG+EMG), Multimodal residual LSTM |
