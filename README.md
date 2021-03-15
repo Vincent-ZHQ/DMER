@@ -72,7 +72,7 @@ MEmoR: A Dataset for Multimodal Emotion Reasoning in Videos
 <br></br>
 
 ### Video-Audio Method
-| Index | Model | Paper | Year | Coding/Video/Project | Dataset | Method |
+| Index | Model | Paper | Year | Project | Dataset | Method |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | VA-0 | VAANet | [An End-to-End Visual-Audio Attention Network for Emotion Recognition in User-Generated Videos](https://arxiv.org/pdf/2003.00832.pdf) | AAAI 2020  | [[coding](https://github.com/maysonny/VAANet)]  | VideoEmotion-8, Ekman-6 | Visual+Audio, Attention-Based Model|
 | VA-1 |  | [Audio-Visual Emotion Forecasting: Characterizing and Predicting Future Emotion Using Deep Learning](https://www.academia.edu/39068756/Audio_visual_emotion_FG) | FG 2019 |  [[coding](https://github.com/sadat1971/Emotion-Forecasting-MATLAB_python)] |  IEMOCAP |  Face + Speech, Emotion forecasting|
@@ -104,7 +104,7 @@ MEmoR: A Dataset for Multimodal Emotion Reasoning in Videos
 <br></br>
 
 ### Context-awarded method
-| Index | Model | Paper | Year | Coding/Video/Project | Dataset | Method |
+| Index | Model | Paper | Year | Project | Dataset | Method |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | CA-1 | EmotiCon | [EmotiCon: Context-Aware Multimodal Emotion Recognition using Frege’s Principle](https://openaccess.thecvf.com/content_CVPR_2020/papers/Mittal_EmotiCon_Context-Aware_Multimodal_Emotion_Recognition_Using_Freges_Principle_CVPR_2020_paper.pdf) | CVPR 2020  | [[video](https://www.youtube.com/watch?v=kYOFkL7n0AI)] [[project](https://gamma.umd.edu/researchdirections/affectivecomputing/emoticon/)] | EMOTIC, [GroupWalk] | Face+Gait+(Depth+Background), Multiplicative fusion, etc|
 | CA-2 | CAER-Net | [Context-Aware Emotion Recognition Networks](https://openaccess.thecvf.com/content_ICCV_2019/papers/Lee_Context-Aware_Emotion_Recognition_Networks_ICCV_2019_paper.pdf) | ICCV 2019  | [[coding](https://github.com/ndkhanh360/CAER)][[project](https://caer-dataset.github.io/)] | EMOTIC, AffectNet, [CAER-S], AFEW, [CAER] | Face + Context, Adaptive Fusion|
@@ -116,7 +116,7 @@ MEmoR: A Dataset for Multimodal Emotion Reasoning in Videos
 <br></br>
 
 ### Video-Audio-Text method
-| Index | Model | Paper | Year | Coding/Video/Project | Dataset | Method |
+| Index | Model | Paper | Year | Project | Dataset | Method |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | VAT-1 | Self-MM | [Learning Modality-Specific Representations with Self-Supervised Multi-Task Learning for Multimodal Sentiment Analysis](https://arxiv.org/pdf/2102.04830.pdf) | AAAI 2021  | [[coding](https://github.com/thuiar/Self-MM)]   | CMU-MOSI, CMU-MOSEI, SIMS | Video+Speech+Text|
 | VAT-2 | CTNet | [CTNet: Conversational Transformer Network for Emotion Recognition](https://ieeexplore.ieee.org/abstract/document/9316758/) | 2021 TASLP | - | IEMOCAP, MELD | Face+Speech+Text|
@@ -159,7 +159,7 @@ MEmoR: A Dataset for Multimodal Emotion Reasoning in Videos
 <br></br>
 
 ### Attribute-based
-| Index | Model | Paper | Year | Coding/Video/Project | Dataset | Method |
+| Index | Model | Paper | Year | Project | Dataset | Method |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | AB-1 | MMDRBN | [Knowledge-Augmented Multimodal Deep Regression Bayesian Networks for Emotion Video Tagging](https://www.ecse.rpi.edu/~cvrl/Publication/pdf/Wang2021.pdf) | 2019 TMM |   | LIRIS-ACCEDE |  Visual + Audio + Attribute|
 | AB-2 |  | [Recognizing Induced Emotions of Movie Audiences From Multimodal Information](http://eprints.bournemouth.ac.uk/31903/1/j9-Recognizing%20Induced%20Emotions%20of%20Movie%20Audiences%20From%20Multimodal%20Information.pdf) | 2019 TAC |   | LIRIS-ACCEDE |  Visual + Audio + Dialogue + Attribute|
@@ -184,7 +184,7 @@ MEmoR: A Dataset for Multimodal Emotion Reasoning in Videos
 <br></br>
 
 ### Physiological signal-based
-| Index | Model | Paper | Year | Coding/Video/Project | Dataset | Method |
+| Index | Model | Paper | Year | Project | Dataset | Method |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | PSB-1 |  | [Emotion Recognition From Multimodal Physiological Signals Using a Regularized Deep Fusion of Kernel Machine](https://www.researchgate.net/profile/Jian-Shen-32/publication/341361785_Emotion_Recognition_From_Multimodal_Physiological_Signals_Using_a_Regularized_Deep_Fusion_of_Kernel_Machine/links/5ebe55a2299bf1c09abc35ab/Emotion-Recognition-From-Multimodal-Physiological-Signals-Using-a-Regularized-Deep-Fusion-of-Kernel-Machine.pdf) | 2020 TC |   |  |  EEG + Other physiological signals|
 | PSB-2 | MMResLSTM | [Emotion Recognition using Multimodal Residual LSTM Network](https://dl.acm.org/doi/pdf/10.1145/3343031.3350871?casa_token=eMp-HVIHiDEAAAAA:NYHcjx1W7rG_KA6vczPxlkWjgei1xQbmTfngt-0x7Gg54F2Pxh06nIaFxrz-usaoqFRY1ghSc-VUIg) | MM 2019 |   | DEAP |  EEG + PPS(EOG+EMG), Multimodal residual LSTM |
