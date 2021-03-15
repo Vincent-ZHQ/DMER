@@ -17,6 +17,7 @@ A survey of deep multimodal emotion recognition.
 ## Related Github Repositories
 - [AWESOME-MER](https://github.com/EvelynFan/AWESOME-MER)
 - [Reading list for Awesome Sentiment Analysis papers](https://github.com/declare-lab/awesome-sentiment-analysis)
+- [AWESOME-MSA](https://github.com/thuiar/AWESOME-MSA)
 
 <br></br>
 
