@@ -1,4 +1,4 @@
-# DMER
+# Deep Multimodal Emotion Recognition
 A survey of deep multimodal emotion recognition.
 
 ***
