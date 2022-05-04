@@ -1,5 +1,16 @@
-# Deep Multimodal Emotion Recognition
+# DMER
 A survey of deep multimodal emotion recognition.
+
+
+[Performance Comparsion](Results-Simple.md)
+
+[Summary of latest papers](Recent-Papers.md)
+
+
+## Update
+2022.03.21 Add papers from ACM MM 2021 
+
+2022.05.04 Add the pages of performance comparsion and the summary of latest papers.
 
 ***
 <br></br>
@@ -16,14 +27,19 @@ A survey of deep multimodal emotion recognition.
 
 ## Related Github Repositories
 - [AWESOME-MER](https://github.com/EvelynFan/AWESOME-MER)
-- [Reading list for Awesome Sentiment Analysis papers](https://github.com/declare-lab/awesome-sentiment-analysis)
 - [AWESOME-MSA](https://github.com/thuiar/AWESOME-MSA)
+- [SER-datasets](https://github.com/SuperKogito/SER-datasets)
+- [Awesome-Speech-Pretraining](https://github.com/ddlBoJack/Awesome-Speech-Pretraining)
+- [Reading list for Awesome Sentiment Analysis papers](https://github.com/declare-lab/awesome-sentiment-analysis)
+- [Speech-Resources](https://github.com/ddlBoJack/Speech-Resources)
+
 
 <br></br>
 
 ## Datasets
 | Datasets | Year | Features | Paper | Used |
 | ----- | ----- | ----- | ----- | ----- |
+| [MEmoR](https://github.com/sunlightsgy/MEmoR) | ACM MM 2020 | Visual, Audio, Text transcripts | [Memor: A dataset for multimodal emotion reasoning in videos](https://static.aminer.cn/storage/pdf/acm/20/mm/10.1145/3394171.3413909.pdf) |  |
 | [EMOTIC Dataset](http://sunai.uoc.edu/emotic/) | 2019 TPAMI  | Face, Context | [Context based emotion recognition using emotic dataset](https://arxiv.org/pdf/2003.13401.pdf) |  | 
 | [CMU-MOSEI](https://github.com/A2Zadeh/CMU-MultimodalSDK) | ACL 2018 | Visual, Audio, Language  | [Multimodal Language Analysis in the Wild: CMU-MOSEI Dataset and Interpretable Dynamic Fusion Graph](https://www.aclweb.org/anthology/P18-1208.pdf) |  | 
 | [ASCERTAIN Dataset](http://mhug.disi.unitn.it/wp-content/ASCERTAIN/ascertain.html) | 2018 TAC  | Facial activity data, Physiological data  | [ASCERTAIN: Emotion and Personality Recognition Using Commercial Sensors](https://ieeexplore.ieee.org/abstract/document/7736040) |  | 
@@ -33,12 +49,14 @@ A survey of deep multimodal emotion recognition.
 | [EmotiW Database](https://sites.google.com/view/emotiw2020) |    | Visual, Audio |  |  |
 | [LIRIS-ACCEDE Database](https://liris-accede.ec-lyon.fr/index.php) |  2015 TAC  | Visual, Audio | [LIRIS-ACCEDE: A Video Database for Affective Content Analysis](https://liris.cnrs.fr/Documents/Liris-7059.pdf) |  |
 | [CREMA-D](https://github.com/CheyneyComputerScience/CREMA-D) |  2014 TAC  | Visual, Audio | [CREMA-D: Crowd-Sourced Emotional Multimodal Actors Dataset](https://ieeexplore.ieee.org/document/6849440) |  |
+| [POM](http://multicomp.cs.cmu.edu/resources/pom-dataset/) | ICMI 2014 | Acoustic Descriptors, Verbal and Para-Verbal Descriptors, Visual Descriptors | [Computational Analysis of Persuasiveness in Social Multimedia: A Novel Dataset and Multimodal Prediction Approach](http://multicomp.cs.cmu.edu/wp-content/uploads/2017/09/2014_ICMI_Park_Computational.pdf) |  |
 | [SEMAINE Database](https://github.com/CheyneyComputerScience/CREMA-D) |  2014 TAC  | Visual, Audio | [CREMA-D: Crowd-Sourced Emotional Multimodal Actors Dataset](https://ieeexplore.ieee.org/document/6849440) |  |
 | [MAHNOB-HCI](https://ibug.doc.ic.ac.uk/resources/mahnob-hci-tagging-database/) |  2011 TAC  | Visual, Eye gaze, Physiological data | [A Multimodal Database for Affect Recognition and Implicit Tagging](https://ieeexplore.ieee.org/document/5975141) |  |
 | [IEMOCAP Database](https://sail.usc.edu/iemocap/) |  2008 LRE  | Visual, Audio, Text transcripts | [IEMOCAP: Interactive emotional dyadic motion capture database](https://sail.usc.edu/publications/files/bussolre2008.pdf) |  |
 | [eNTERFACE Dataset](http://enterface.net/) | ICDEW 2006 | Visual, Audio | [The eNTERFACE'05 audio-visual emotion database](http://poseidon.csd.auth.gr/papers/PUBLISHED/CONFERENCE/pdf/Martin06a.pdf) |  |
-POM
-MEmoR: A Dataset for Multimodal Emotion Reasoning in Videos
+
+
+
 
 <br></br>
 
@@ -49,7 +67,6 @@ MEmoR: A Dataset for Multimodal Emotion Reasoning in Videos
 - [One-Minute Gradual-Emotion Behavior Challenge @ IJCNN](https://www2.informatik.uni-hamburg.de/wtm/OMG-EmotionChallenge/)
 - [Multimodal Emotion Recognition Challenge (MEC) @ ACII](http://www.chineseldc.org/htdocsEn/emotion.html) 
 - [Multimodal Pain Recognition (Face and Body) Challenge (EmoPain) @ FG](https://mvrjustid.github.io/EmoPainChallenge2020/)
-
 
 <br></br>
 
@@ -197,17 +214,27 @@ MEmoR: A Dataset for Multimodal Emotion Reasoning in Videos
 
 <br></br>
 
-### Physiological signal-based
+### Physiological Signal
 | Index | Model | Paper | Year | Project | Dataset | Method |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| PSB-1 |  | [Emotion Recognition From Multimodal Physiological Signals Using a Regularized Deep Fusion of Kernel Machine](https://www.researchgate.net/profile/Jian-Shen-32/publication/341361785_Emotion_Recognition_From_Multimodal_Physiological_Signals_Using_a_Regularized_Deep_Fusion_of_Kernel_Machine/links/5ebe55a2299bf1c09abc35ab/Emotion-Recognition-From-Multimodal-Physiological-Signals-Using-a-Regularized-Deep-Fusion-of-Kernel-Machine.pdf) | 2020 TC |   |  |  EEG + Other physiological signals|
-| PSB-2 | MMResLSTM | [Emotion Recognition using Multimodal Residual LSTM Network](https://dl.acm.org/doi/pdf/10.1145/3343031.3350871?casa_token=eMp-HVIHiDEAAAAA:NYHcjx1W7rG_KA6vczPxlkWjgei1xQbmTfngt-0x7Gg54F2Pxh06nIaFxrz-usaoqFRY1ghSc-VUIg) | MM 2019 |   | DEAP |  EEG + PPS(EOG+EMG), Multimodal residual LSTM |
-| PSB-3 |  | [EmotionMeter: A Multimodal Framework for Recognizing Human Emotions](http://bcmi.sjtu.edu.cn/~blu/papers/2019/1.pdf) | 2019 TC |   |  |  EEG + Eye movements|
-| PSB-4 |   | [Personality-Aware Personalized Emotion Recognition from Physiological Signals](https://www.ijcai.org/Proceedings/2018/0230.pdf) | IJCAI 2018 |   | ASCERTAIN | Personality+Physiological signals, Personalized emotion recognition|
-| PSB-5 |  | [Combining Facial Expression and Touch for Perceiving Emotional Valence](https://www.researchgate.net/profile/Jean-Claude-Martin/publication/310734026_Combining_Facial_Expression_and_Touch_for_Perceiving_Emotional_Valence/links/5bd7b1e592851c6b2798d364/Combining-Facial-Expression-and-Touch-for-Perceiving-Emotional-Valence.pdf) | 2018 TAC |   | KDEF |  Face + Touch stimuli|
+| PS-1 |  | [Emotion Recognition From Multimodal Physiological Signals Using a Regularized Deep Fusion of Kernel Machine](https://www.researchgate.net/profile/Jian-Shen-32/publication/341361785_Emotion_Recognition_From_Multimodal_Physiological_Signals_Using_a_Regularized_Deep_Fusion_of_Kernel_Machine/links/5ebe55a2299bf1c09abc35ab/Emotion-Recognition-From-Multimodal-Physiological-Signals-Using-a-Regularized-Deep-Fusion-of-Kernel-Machine.pdf) | 2020 TC |   |  |  EEG + Other physiological signals|
+| PS-2 | MMResLSTM | [Emotion Recognition using Multimodal Residual LSTM Network](https://dl.acm.org/doi/pdf/10.1145/3343031.3350871?casa_token=eMp-HVIHiDEAAAAA:NYHcjx1W7rG_KA6vczPxlkWjgei1xQbmTfngt-0x7Gg54F2Pxh06nIaFxrz-usaoqFRY1ghSc-VUIg) | MM 2019 |   | DEAP |  EEG + PPS(EOG+EMG), Multimodal residual LSTM |
+| PS-3 |  | [EmotionMeter: A Multimodal Framework for Recognizing Human Emotions](http://bcmi.sjtu.edu.cn/~blu/papers/2019/1.pdf) | 2019 TC |   |  |  EEG + Eye movements|
+| PS-4 |   | [Personality-Aware Personalized Emotion Recognition from Physiological Signals](https://www.ijcai.org/Proceedings/2018/0230.pdf) | IJCAI 2018 |   | ASCERTAIN | Personality+Physiological signals, Personalized emotion recognition|
+| PS-5 |  | [Combining Facial Expression and Touch for Perceiving Emotional Valence](https://www.researchgate.net/profile/Jean-Claude-Martin/publication/310734026_Combining_Facial_Expression_and_Touch_for_Perceiving_Emotional_Valence/links/5bd7b1e592851c6b2798d364/Combining-Facial-Expression-and-Touch-for-Perceiving-Emotional-Valence.pdf) | 2018 TAC |   | KDEF |  Face + Touch stimuli|
 | PSB-6 |  | [Multi-modality weakly labeled sentiment learning based on Explicit Emotion Signal for Chinese microblog](https://www.sciencedirect.com/science/article/abs/pii/S0925231217312298) | 2018 Neurocomputing |   |  |  Face + Touch stimuli|
-| PSB-7 |  | [Analysis of EEG Signals and Facial Expressions for Continuous Emotion Detection](https://www.ibug.doc.ic.ac.uk/media/uploads/documents/journal_eegcontinuous.pdf) | 2016 TAC |   |  |  Face + EEG signals|
-| PSB-8 |  | [Multi-modal emotion analysis from facial expressions and electroencephalogram](https://www.sciencedirect.com/science/article/abs/pii/S1077314215002106) | 2016 Computer Vision and Image Understanding  |   |  |  Face + EEG |
-| PSB-9 |  | [Combining Eye Movements and EEG to Enhance Emotion Recognition](http://bcmi.sjtu.edu.cn/~zhengweilong/pdf/ijcai15_final_submittd.pdf) | IJCAI 2015 |   | [[dataset](http://bcmi.sjtu.edu.cn/∼seed/index.html)] |  Eye Movements+EEG signal|
-| PSB-10 |  | [Multimodal Emotion Recognition in Response to Videos](https://d1wqtxts1xzle7.cloudfront.net/30736774/soleymani2011multimodal.pdf?1362142614=&response-content-disposition=inline%3B+filename%3DMultimodal_Emotion_Recognition_in_Respon.pdf&Expires=1614826781&Signature=OhtUCmuqf3zL7nMuMwgW6Po2eZFXIupKgjL61yYMGyRVHh90ZzD~TB29gDGGUSYnRuw1r-hRhmDXbZ39wxcavRxGg7E7RKe43CnOCMRUWbTAbVuKPipUOyWR-ZQdsq9hisFm2UiXXW8I3nPZ0cAPjcMY4lHG-FG~7dm18KPpD2RE2XEOsIIkL3YLLuq0WWQ~-EIQPX~TUoI-Yi4Xu5q~AkdMoHcXWPeKePlNelZHdIYCGBNhh0v9rc8Q1VtAmqQs5Kt3Dg585EBiUSkf-dcJR3QjrB6UyO8duUcTIUC5AClbgxOevlLShavo3OxW7MVTeJl4ukOBYyQ6NYOaZ2~8Xw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) | 2012 TAC |   |  |  Eye gaze + EEG signals|
+| PS-7 |  | [Analysis of EEG Signals and Facial Expressions for Continuous Emotion Detection](https://www.ibug.doc.ic.ac.uk/media/uploads/documents/journal_eegcontinuous.pdf) | 2016 TAC |   |  |  Face + EEG signals|
+| PS-8 |  | [Multi-modal emotion analysis from facial expressions and electroencephalogram](https://www.sciencedirect.com/science/article/abs/pii/S1077314215002106) | 2016 Computer Vision and Image Understanding  |   |  |  Face + EEG |
+| PS-9 |  | [Combining Eye Movements and EEG to Enhance Emotion Recognition](http://bcmi.sjtu.edu.cn/~zhengweilong/pdf/ijcai15_final_submittd.pdf) | IJCAI 2015 |   | [[dataset](http://bcmi.sjtu.edu.cn/∼seed/index.html)] |  Eye Movements+EEG signal|
+| PS-10 |  | [Multimodal Emotion Recognition in Response to Videos](https://d1wqtxts1xzle7.cloudfront.net/30736774/soleymani2011multimodal.pdf?1362142614=&response-content-disposition=inline%3B+filename%3DMultimodal_Emotion_Recognition_in_Respon.pdf&Expires=1614826781&Signature=OhtUCmuqf3zL7nMuMwgW6Po2eZFXIupKgjL61yYMGyRVHh90ZzD~TB29gDGGUSYnRuw1r-hRhmDXbZ39wxcavRxGg7E7RKe43CnOCMRUWbTAbVuKPipUOyWR-ZQdsq9hisFm2UiXXW8I3nPZ0cAPjcMY4lHG-FG~7dm18KPpD2RE2XEOsIIkL3YLLuq0WWQ~-EIQPX~TUoI-Yi4Xu5q~AkdMoHcXWPeKePlNelZHdIYCGBNhh0v9rc8Q1VtAmqQs5Kt3Dg585EBiUSkf-dcJR3QjrB6UyO8duUcTIUC5AClbgxOevlLShavo3OxW7MVTeJl4ukOBYyQ6NYOaZ2~8Xw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) | 2012 TAC |   |  |  Eye gaze + EEG signals|
+| PS-11 | HetEmotionNet | [HetEmotionNet: Two-Stream Heterogeneous Graph Recurrent Neural Network for Multi-modal Emotion Recognition](https://arxiv.org/pdf/2108.03354.pdf) | MM 2021  | [[coding](https://github.com/ziyujia/HetEmotionNet)]  | DEAP, MAHNOB-HCI | EEG+PPS+GTN, A novel two-stream heterogeneous graph recurrent neural network|
+| PS-12 |  | [Simplifying Multimodal Emotion Recognition with Single Eye Movement Modality](https://dl.acm.org/doi/abs/10.1145/3474085.3475701) | MM 2021  |   | SEED, SEED-IV, SEED-V | EEG+Eye movement signal, A generative adversarial network-based framework|
+
+
+
+
+
+
+
+
 
