@@ -22,7 +22,7 @@
 
 | Methods | Modality |paper | Time | Acc(4) | F1 Score(4) | Recall(4) | Percision | |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ------ | ------ |
-| M3ER | VAT |[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5492) | AAAI 2020 | 82.7 | 82.4 | - | - | 4:ang,hap,neu,sad, MA=Average(4), F1=Average(4)|
+| M3ER | VAT |[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5492) | AAAI 2020 | 82.7 | 82.4 | - | - | (4,ang,hap,neu,sad), (MA=Average(4), F1=Average(4))|
 
 
 ## Results of IEMOCAP
