@@ -20,6 +20,11 @@
 | MMResLSTM | AT |[paper](https://dl.acm.org/doi/pdf/10.1145/3343031.3351039?casa_token=Vast9_rsesgAAAAA:9xSY3zkcbJv6R1e8hP1fZsmkzvFPv0gi_7mtJhiDYlWfQCJx1wjnxGb7-QPsOeLaRa2hHJYog8DenQ) | MM 2019 | 51.6(4_7) | 50.3(4_7) | - | - |
 <br> </br>
 
+| Methods | Modality |paper | Time | Acc(4) | F1 Score(4) | Recall(4) | Percision | |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ------ | ------ |
+| M3ER | VAT |[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5492) | AAAI 2020 | 82.7 | 82.4 | - | - | 4:ang,hap,neu,sad, MA=Average(4), F1=Average(4)|
+
+
 ## Results of IEMOCAP
 
 | Methods | Modality | paper | Time | HAPPY-ACC | HAPPY-F1 | SAD-ACC | SAD-F1 | ANGRY-ACC | ANGRY-F1 | NEUTRAL-ACC | NEUTRAL-F1 |
