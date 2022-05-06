@@ -8,7 +8,7 @@
 
 | Methods | Modality |paper | Time | WA/Accuracy(4) | F1 Score(4) | UA/Recall(4) | Percision |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ------ |
-| M3ER | VAT |[paper](https://ieeexplore.ieee.org/abstract/document/9316758/) | AAAI 2020 | 82.7 | 82.4 | - | - |
+| M3ER | VAT |[paper](https://ojs.aaai.org/index.php/AAAI/article/view/5492) | AAAI 2020 | 82.7 | 82.4 | - | - |
 | LMFN | VAT |[paper](https://ieeexplore.ieee.org/abstract/document/8752006) | 2020 TMM | 82.45 | 82.54 | - | - |
 | HFFN | VAT |[paper](https://www.aclweb.org/anthology/P19-1046.pdf) | ACL 2019 | 82.37(4) | 82.42(4) | - | - |
 | MHA | AT |[paper](https://arxiv.org/pdf/1904.10788.pdf) | ICASSP 2019 | 76.5(WA-4) | - | 77.6(UA-4) | - |
